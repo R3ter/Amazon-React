@@ -1,0 +1,9 @@
+#logo {
+  pointer-events: none;
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: 0 -40px;
+  background-repeat: repeat-x;
+  background-size: 100;
+  width: 150px;
+  height: 40px;
+}
