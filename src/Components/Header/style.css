@@ -1,11 +1,19 @@
-.App-header {
-  width: 100%;
+header {
   background-color: #131921;
-  min-height: 100px;
-  height: 100%;
+  width: 100%;
+}
+.App-header {
+  min-height: 70px;
+  max-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  margin: 0px;
 }
