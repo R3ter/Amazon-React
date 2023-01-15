@@ -7,7 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "amazon-font";
 }
-
+a {
+  text-decoration: none;
+  color: #007185;
+}
 @font-face {
   font-family: "amazon-font";
   src: url("https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2")

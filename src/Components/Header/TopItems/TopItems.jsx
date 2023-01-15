@@ -13,7 +13,7 @@ export default function TopItems() {
       dropdown: true,
     },
     {
-      firstLine: "hello, waleed",
+      firstLine: "Hello, waleed",
       secondLine: "Account & Lists",
       dropdown: true,
     },
