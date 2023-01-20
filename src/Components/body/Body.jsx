@@ -1,6 +1,7 @@
 import React from "react";
 import ImageGallery from "./ImageGallery/ImageGallery";
 import Title from "./ItemInfo/Title";
+import Unavailable from "./ItemInfo/Unavailable";
 
 export default function Body() {
   const [image, setImage] = React.useState(
@@ -14,7 +15,7 @@ export default function Body() {
       <div
         style={{
           display: "flex",
-          maxWidth: "1500px",
+          maxWidth: "1400px",
         }}
       >
         <ImageGallery
@@ -41,6 +42,7 @@ export default function Body() {
           ></div>
           <Title />
         </div>
+        <Unavailable />
       </div>
     </div>
   );
